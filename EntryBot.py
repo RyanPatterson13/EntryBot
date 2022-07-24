@@ -33,8 +33,8 @@ else:
 async def on_ready():
     global TEXTCHANNEL 
     global VOICECHANNEL
-    TEXTCHANNEL = client.get_channel(983159765070913596)
-    VOICECHANNEL = client.get_channel(978109248892465152)
+    TEXTCHANNEL = client.get_channel(0) # Put your text channel id here
+    VOICECHANNEL = client.get_channel(0) # Put your text channel id here
     await TEXTCHANNEL.send("Ready!")
 
 # Forces the bot to join the voice channel thar the sender is currently in
